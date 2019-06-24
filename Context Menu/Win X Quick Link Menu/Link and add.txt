@@ -1,2 +1,2 @@
-%LocalAppdata%MicrosoftWindowsWinX
-https://www.tenforums.com/tutorials/128500-rename-shortcuts-win-x-quick-link-menu-windows-10-a.html
+Location: %LocalAppdata%MicrosoftWindowsWinX
+Steps: https://www.tenforums.com/tutorials/128500-rename-shortcuts-win-x-quick-link-menu-windows-10-a.html
