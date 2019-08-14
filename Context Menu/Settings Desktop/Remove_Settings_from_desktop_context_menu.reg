@@ -1,0 +1,11 @@
+﻿Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: November 28th 2015
+; Modified on: March 3rd 2017
+; Tutorial: http://www.tenforums.com/tutorials/31872-settings-context-menu-add-remove-windows-10-a.html
+
+
+[-HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings]
+
+
