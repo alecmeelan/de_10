@@ -1,0 +1,145 @@
+﻿Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: November 28th 2015
+; Updated on: May 12th 2019
+; Tutorial: https://www.tenforums.com/tutorials/31872-add-settings-context-menu-windows-10-a.html
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings]
+"Position"="Bottom"
+"Icon"="SystemSettingsBroker.exe"
+"SubCommands"=""
+
+
+; Settings home page
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\01menu]
+"Icon"="SystemSettingsBroker.exe"
+"MUIVerb"="Settings"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\01menu\command]
+@="explorer ms-settings:"
+
+
+; System category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\02menu]
+"CommandFlags"=dword:00000020
+"MUIVerb"="System"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\02menu\command]
+@="explorer ms-settings:display"
+
+
+; Devices category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\03menu]
+"MUIVerb"="Devices"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\03menu\command]
+@="explorer ms-settings:bluetooth"
+
+
+; Phone category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\04menu]
+"MUIVerb"="Phone"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\04menu\command]
+@="explorer ms-settings:mobile-devices"
+
+
+; Network & Internet category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\05menu]
+"MUIVerb"="Network && Internet"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\05menu\command]
+@="explorer ms-settings:network"
+
+
+; Personalization category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\06menu]
+"MUIVerb"="Personalization"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\06menu\command]
+@="explorer ms-settings:personalization"
+
+
+; Apps category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\07menu]
+"MUIVerb"="Apps"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\07menu\command]
+@="explorer ms-settings:appsfeatures"
+
+
+; Accounts category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\08menu]
+"MUIVerb"="Accounts"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\08menu\command]
+@="explorer ms-settings:yourinfo"
+
+
+; Time & language category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\09menu]
+"MUIVerb"="Time && language"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\09menu\command]
+@="explorer ms-settings:dateandtime"
+
+
+; Gaming category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\10menu]
+"MUIVerb"="Gaming"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\10menu\command]
+@="explorer ms-settings:gaming-gamebar"
+
+
+; Ease of Access category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\11menu]
+"MUIVerb"="Ease of Access"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\11menu\command]
+@="explorer ms-settings:easeofaccess-narrator"
+
+
+; Search category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\12menu]
+"MUIVerb"="Search"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\12menu\command]
+@="explorer ms-settings:search-permissions"
+
+
+; Cortana category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\13menu]
+"MUIVerb"="Cortana"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\13menu\command]
+@="explorer ms-settings:cortana"
+
+
+; Privacy category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\14menu]
+"MUIVerb"="Privacy"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\14menu\command]
+@="explorer ms-settings:privacy"
+
+
+; Update & security category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\15menu]
+"MUIVerb"="Update && security"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\15menu\command]
+@="explorer ms-settings:windowsupdate"
+
+
+; Mixed Reality category
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\16menu]
+"MUIVerb"="Mixed Reality"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Settings\shell\16menu\command]
+@="explorer ms-settings:holographic"
+
+
+
